@@ -25,9 +25,9 @@ class AABB {
     this.yMax = yMax;
   }
   void draw() {
-    fill(0,255,0);
-    rectMode(CORNERS);
-    rect(xMin, yMin, xMax, yMax);
+    //fill(0,255,0);
+    //rectMode(CORNERS);
+    //rect(xMin, yMin, xMax, yMax);
   }
   public boolean checkCollision(AABB aabb) {
     if (xMax < aabb.xMin) return false;
